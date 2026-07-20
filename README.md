@@ -108,7 +108,7 @@ data_chunking_pipeline/
 ### 1. Ingestion Pipeline
 Parse a PDF using the sentence window strategy, isolate table and code blocks, and upload it to a specific client tenant shard and department:
 ```powershell
-& "d:\DL Projects\env\Scripts\python.exe" data_chunking_pipeline/main.py `
+& python data_chunking_pipeline/main.py `
   --pdf "data/API-Documentation-1.0v.pdf" `
   --strategy sentence_window `
   --upload `
@@ -119,7 +119,7 @@ Parse a PDF using the sentence window strategy, isolate table and code blocks, a
 ### 2. Retrieval & Generation Pipeline
 Execute a single query with citations, scoped to a specific tenant shard and department filter:
 ```powershell
-& "d:\DL Projects\env\Scripts\python.exe" data_chunking_pipeline/query_pipeline.py `
+& python data_chunking_pipeline/query_pipeline.py `
   --query "what is the URL and method for Language Detection?" `
   --llm local `
   --tenant "client_a" `
@@ -129,7 +129,7 @@ Execute a single query with citations, scoped to a specific tenant shard and dep
 ### 3. Interactive Conversational Chatbot
 Launch the terminal chatbot session. Casually converse, ask technical details from your files, or trigger real-time web searches automatically when retrieval scores fall below threshold:
 ```powershell
-& "d:\DL Projects\env\Scripts\python.exe" data_chunking_pipeline/chatbot.py `
+& python data_chunking_pipeline/chatbot.py `
   --llm local `
   --tenant "client_a" `
   --department "engineering"
