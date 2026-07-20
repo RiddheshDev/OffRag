@@ -1,0 +1,556 @@
+[
+  {
+    "id": "34db9d92-a321-41c0-acdb-f23f09850a91",
+    "text": "Dummy Business Intelligence Report\nThis is a sample multi-page PDF document designed for testing PDF extraction pipelines. ",
+    "metadata": {
+      "window": "Dummy Business Intelligence Report\nThis is a sample multi-page PDF document designed for testing PDF extraction pipelines.  It contains structured\nheadings, hierarchical sections, normal paragraphs, tables, and mixed formatting to simulate realistic enterprise\ndocuments.\n Sample Visual Block for OCR/Layout Testing",
+      "original_text": "Dummy Business Intelligence Report\nThis is a sample multi-page PDF document designed for testing PDF extraction pipelines. ",
+      "source_file": "dummy_hierarchical_test_document.pdf",
+      "page_number": 1,
+      "chunk_type": "text",
+      "parent_id": null
+    },
+    "relationships": {
+      "NodeRelationship.SOURCE": "0eefb6bf-0dcb-4c38-8f84-c5c1fa95ac69",
+      "NodeRelationship.NEXT": "72d7b88d-5dc5-4eb0-a62d-254b8ae24c86"
+    }
+  },
+  {
+    "id": "72d7b88d-5dc5-4eb0-a62d-254b8ae24c86",
+    "text": "It contains structured\nheadings, hierarchical sections, normal paragraphs, tables, and mixed formatting to simulate realistic enterprise\ndocuments.\n",
+    "metadata": {
+      "window": "Dummy Business Intelligence Report\nThis is a sample multi-page PDF document designed for testing PDF extraction pipelines.  It contains structured\nheadings, hierarchical sections, normal paragraphs, tables, and mixed formatting to simulate realistic enterprise\ndocuments.\n Sample Visual Block for OCR/Layout Testing",
+      "original_text": "It contains structured\nheadings, hierarchical sections, normal paragraphs, tables, and mixed formatting to simulate realistic enterprise\ndocuments.\n",
+      "source_file": "dummy_hierarchical_test_document.pdf",
+      "page_number": 1,
+      "chunk_type": "text",
+      "parent_id": null
+    },
+    "relationships": {
+      "NodeRelationship.SOURCE": "0eefb6bf-0dcb-4c38-8f84-c5c1fa95ac69",
+      "NodeRelationship.PREVIOUS": "34db9d92-a321-41c0-acdb-f23f09850a91",
+      "NodeRelationship.NEXT": "f26fb935-6daa-49f7-8626-e38a231739dc"
+    }
+  },
+  {
+    "id": "f26fb935-6daa-49f7-8626-e38a231739dc",
+    "text": "Sample Visual Block for OCR/Layout Testing",
+    "metadata": {
+      "window": "Dummy Business Intelligence Report\nThis is a sample multi-page PDF document designed for testing PDF extraction pipelines.  It contains structured\nheadings, hierarchical sections, normal paragraphs, tables, and mixed formatting to simulate realistic enterprise\ndocuments.\n Sample Visual Block for OCR/Layout Testing",
+      "original_text": "Sample Visual Block for OCR/Layout Testing",
+      "source_file": "dummy_hierarchical_test_document.pdf",
+      "page_number": 1,
+      "chunk_type": "text",
+      "parent_id": null
+    },
+    "relationships": {
+      "NodeRelationship.SOURCE": "0eefb6bf-0dcb-4c38-8f84-c5c1fa95ac69",
+      "NodeRelationship.PREVIOUS": "72d7b88d-5dc5-4eb0-a62d-254b8ae24c86"
+    }
+  },
+  {
+    "id": "ad0555aa-d0e3-44d7-8149-53f2782b1866",
+    "text": "1. ",
+    "metadata": {
+      "window": "1.  Executive Summary\nThe objective of this report is to demonstrate how different extraction systems handle structured documents.  The\nreport includes nested headings, long-form text, tabular information, and visual blocks.  Financial and operational\nmetrics are included to test table extraction and chunking strategies.\n",
+      "original_text": "1. ",
+      "source_file": "dummy_hierarchical_test_document.pdf",
+      "page_number": 2,
+      "chunk_type": "text",
+      "parent_id": null
+    },
+    "relationships": {
+      "NodeRelationship.SOURCE": "7a757eb5-1ed9-4bc7-9476-18e81f1e138a",
+      "NodeRelationship.NEXT": "f4465b87-225c-4e5c-9e9d-63f39f4e25a4"
+    }
+  },
+  {
+    "id": "f4465b87-225c-4e5c-9e9d-63f39f4e25a4",
+    "text": "Executive Summary\nThe objective of this report is to demonstrate how different extraction systems handle structured documents. ",
+    "metadata": {
+      "window": "1.  Executive Summary\nThe objective of this report is to demonstrate how different extraction systems handle structured documents.  The\nreport includes nested headings, long-form text, tabular information, and visual blocks.  Financial and operational\nmetrics are included to test table extraction and chunking strategies.\n 1.1 Business Overview\nThe organization operates in multiple regions and serves a diverse customer base. ",
+      "original_text": "Executive Summary\nThe objective of this report is to demonstrate how different extraction systems handle structured documents. ",
+      "source_file": "dummy_hierarchical_test_document.pdf",
+      "page_number": 2,
+      "chunk_type": "text",
+      "parent_id": null
+    },
+    "relationships": {
+      "NodeRelationship.SOURCE": "7a757eb5-1ed9-4bc7-9476-18e81f1e138a",
+      "NodeRelationship.PREVIOUS": "ad0555aa-d0e3-44d7-8149-53f2782b1866",
+      "NodeRelationship.NEXT": "76927bea-91a2-433f-b66d-c2ac31c10443"
+    }
+  },
+  {
+    "id": "76927bea-91a2-433f-b66d-c2ac31c10443",
+    "text": "The\nreport includes nested headings, long-form text, tabular information, and visual blocks. ",
+    "metadata": {
+      "window": "1.  Executive Summary\nThe objective of this report is to demonstrate how different extraction systems handle structured documents.  The\nreport includes nested headings, long-form text, tabular information, and visual blocks.  Financial and operational\nmetrics are included to test table extraction and chunking strategies.\n 1.1 Business Overview\nThe organization operates in multiple regions and serves a diverse customer base.  Revenue streams are distributed\nacross manufacturing, logistics, and retail operations. ",
+      "original_text": "The\nreport includes nested headings, long-form text, tabular information, and visual blocks. ",
+      "source_file": "dummy_hierarchical_test_document.pdf",
+      "page_number": 2,
+      "chunk_type": "text",
+      "parent_id": null
+    },
+    "relationships": {
+      "NodeRelationship.SOURCE": "7a757eb5-1ed9-4bc7-9476-18e81f1e138a",
+      "NodeRelationship.PREVIOUS": "f4465b87-225c-4e5c-9e9d-63f39f4e25a4",
+      "NodeRelationship.NEXT": "834e7a95-2279-4f94-9929-4416491895dd"
+    }
+  },
+  {
+    "id": "834e7a95-2279-4f94-9929-4416491895dd",
+    "text": "Financial and operational\nmetrics are included to test table extraction and chunking strategies.\n",
+    "metadata": {
+      "window": "1.  Executive Summary\nThe objective of this report is to demonstrate how different extraction systems handle structured documents.  The\nreport includes nested headings, long-form text, tabular information, and visual blocks.  Financial and operational\nmetrics are included to test table extraction and chunking strategies.\n 1.1 Business Overview\nThe organization operates in multiple regions and serves a diverse customer base.  Revenue streams are distributed\nacross manufacturing, logistics, and retail operations.  The following sections provide example datasets and structured\nreporting content.",
+      "original_text": "Financial and operational\nmetrics are included to test table extraction and chunking strategies.\n",
+      "source_file": "dummy_hierarchical_test_document.pdf",
+      "page_number": 2,
+      "chunk_type": "text",
+      "parent_id": null
+    },
+    "relationships": {
+      "NodeRelationship.SOURCE": "7a757eb5-1ed9-4bc7-9476-18e81f1e138a",
+      "NodeRelationship.PREVIOUS": "76927bea-91a2-433f-b66d-c2ac31c10443",
+      "NodeRelationship.NEXT": "6c4dd43a-738b-4ade-b5b6-4f0595827ef8"
+    }
+  },
+  {
+    "id": "6c4dd43a-738b-4ade-b5b6-4f0595827ef8",
+    "text": "1.1 Business Overview\nThe organization operates in multiple regions and serves a diverse customer base. ",
+    "metadata": {
+      "window": "Executive Summary\nThe objective of this report is to demonstrate how different extraction systems handle structured documents.  The\nreport includes nested headings, long-form text, tabular information, and visual blocks.  Financial and operational\nmetrics are included to test table extraction and chunking strategies.\n 1.1 Business Overview\nThe organization operates in multiple regions and serves a diverse customer base.  Revenue streams are distributed\nacross manufacturing, logistics, and retail operations.  The following sections provide example datasets and structured\nreporting content.",
+      "original_text": "1.1 Business Overview\nThe organization operates in multiple regions and serves a diverse customer base. ",
+      "source_file": "dummy_hierarchical_test_document.pdf",
+      "page_number": 2,
+      "chunk_type": "text",
+      "parent_id": null
+    },
+    "relationships": {
+      "NodeRelationship.SOURCE": "7a757eb5-1ed9-4bc7-9476-18e81f1e138a",
+      "NodeRelationship.PREVIOUS": "834e7a95-2279-4f94-9929-4416491895dd",
+      "NodeRelationship.NEXT": "03999da2-5f93-444c-bdc0-e51388253f04"
+    }
+  },
+  {
+    "id": "03999da2-5f93-444c-bdc0-e51388253f04",
+    "text": "Revenue streams are distributed\nacross manufacturing, logistics, and retail operations. ",
+    "metadata": {
+      "window": "The\nreport includes nested headings, long-form text, tabular information, and visual blocks.  Financial and operational\nmetrics are included to test table extraction and chunking strategies.\n 1.1 Business Overview\nThe organization operates in multiple regions and serves a diverse customer base.  Revenue streams are distributed\nacross manufacturing, logistics, and retail operations.  The following sections provide example datasets and structured\nreporting content.",
+      "original_text": "Revenue streams are distributed\nacross manufacturing, logistics, and retail operations. ",
+      "source_file": "dummy_hierarchical_test_document.pdf",
+      "page_number": 2,
+      "chunk_type": "text",
+      "parent_id": null
+    },
+    "relationships": {
+      "NodeRelationship.SOURCE": "7a757eb5-1ed9-4bc7-9476-18e81f1e138a",
+      "NodeRelationship.PREVIOUS": "6c4dd43a-738b-4ade-b5b6-4f0595827ef8",
+      "NodeRelationship.NEXT": "54006dab-7139-4820-8768-a09d8d70dc2d"
+    }
+  },
+  {
+    "id": "54006dab-7139-4820-8768-a09d8d70dc2d",
+    "text": "The following sections provide example datasets and structured\nreporting content.",
+    "metadata": {
+      "window": "Financial and operational\nmetrics are included to test table extraction and chunking strategies.\n 1.1 Business Overview\nThe organization operates in multiple regions and serves a diverse customer base.  Revenue streams are distributed\nacross manufacturing, logistics, and retail operations.  The following sections provide example datasets and structured\nreporting content.",
+      "original_text": "The following sections provide example datasets and structured\nreporting content.",
+      "source_file": "dummy_hierarchical_test_document.pdf",
+      "page_number": 2,
+      "chunk_type": "text",
+      "parent_id": null
+    },
+    "relationships": {
+      "NodeRelationship.SOURCE": "7a757eb5-1ed9-4bc7-9476-18e81f1e138a",
+      "NodeRelationship.PREVIOUS": "03999da2-5f93-444c-bdc0-e51388253f04"
+    }
+  },
+  {
+    "id": "467af7c3-5d42-40c7-aaa5-b2749992c416",
+    "text": "| Region   |   Revenue ($M) |   Growth % |   Employees |\n|----------|----------------|------------|-------------|\n| North    |            120 |        8.5 |         540 |\n| South    |             98 |        6.2 |         420 |\n| East     |            135 |       10.1 |         610 |\n| West     |            110 |        7.4 |         500 |",
+    "metadata": {
+      "source_file": "dummy_hierarchical_test_document.pdf",
+      "page_number": 2,
+      "chunk_type": "table",
+      "parent_id": null,
+      "window": "metrics are included to test table extraction and chunking strategies.\n1.1 Business Overview\nThe organization operates in multiple regions and serves a diverse customer base. Revenue streams are distributed\nacross manufacturing, logistics, and retail operations. The following sections provide example datasets and structured\nreporting content.\n\n| Region   |   Revenue ($M) |   Growth % |   Employees |\n|----------|----------------|------------|-------------|\n| North    |            120 |        8.5 |         540 |\n| South    |             98 |        6.2 |         420 |\n| East     |            135 |       10.1 |         610 |\n| West     |            110 |        7.4 |         500 |",
+      "original_text": "| Region   |   Revenue ($M) |   Growth % |   Employees |\n|----------|----------------|------------|-------------|\n| North    |            120 |        8.5 |         540 |\n| South    |             98 |        6.2 |         420 |\n| East     |            135 |       10.1 |         610 |\n| West     |            110 |        7.4 |         500 |"
+    },
+    "relationships": {}
+  },
+  {
+    "id": "8cd88dca-f960-4a1e-80db-9c6a8fb19241",
+    "text": "2. ",
+    "metadata": {
+      "window": "2.  Operational Metrics\nOperational performance indicators are tracked quarterly.  These indicators include production output, average\nturnaround time, customer satisfaction, and inventory turnover.\n 2.1 Quarterly Production Data",
+      "original_text": "2. ",
+      "source_file": "dummy_hierarchical_test_document.pdf",
+      "page_number": 3,
+      "chunk_type": "text",
+      "parent_id": null
+    },
+    "relationships": {
+      "NodeRelationship.SOURCE": "e4b21ebc-d139-43d3-b5d7-7b835774a7fc",
+      "NodeRelationship.NEXT": "1c1dfe10-5ad9-42d4-9de2-1ee1ccaf623f"
+    }
+  },
+  {
+    "id": "1c1dfe10-5ad9-42d4-9de2-1ee1ccaf623f",
+    "text": "Operational Metrics\nOperational performance indicators are tracked quarterly. ",
+    "metadata": {
+      "window": "2.  Operational Metrics\nOperational performance indicators are tracked quarterly.  These indicators include production output, average\nturnaround time, customer satisfaction, and inventory turnover.\n 2.1 Quarterly Production Data",
+      "original_text": "Operational Metrics\nOperational performance indicators are tracked quarterly. ",
+      "source_file": "dummy_hierarchical_test_document.pdf",
+      "page_number": 3,
+      "chunk_type": "text",
+      "parent_id": null
+    },
+    "relationships": {
+      "NodeRelationship.SOURCE": "e4b21ebc-d139-43d3-b5d7-7b835774a7fc",
+      "NodeRelationship.PREVIOUS": "8cd88dca-f960-4a1e-80db-9c6a8fb19241",
+      "NodeRelationship.NEXT": "70aa5405-3461-4183-8b3d-e86eca48e456"
+    }
+  },
+  {
+    "id": "70aa5405-3461-4183-8b3d-e86eca48e456",
+    "text": "These indicators include production output, average\nturnaround time, customer satisfaction, and inventory turnover.\n",
+    "metadata": {
+      "window": "2.  Operational Metrics\nOperational performance indicators are tracked quarterly.  These indicators include production output, average\nturnaround time, customer satisfaction, and inventory turnover.\n 2.1 Quarterly Production Data",
+      "original_text": "These indicators include production output, average\nturnaround time, customer satisfaction, and inventory turnover.\n",
+      "source_file": "dummy_hierarchical_test_document.pdf",
+      "page_number": 3,
+      "chunk_type": "text",
+      "parent_id": null
+    },
+    "relationships": {
+      "NodeRelationship.SOURCE": "e4b21ebc-d139-43d3-b5d7-7b835774a7fc",
+      "NodeRelationship.PREVIOUS": "1c1dfe10-5ad9-42d4-9de2-1ee1ccaf623f",
+      "NodeRelationship.NEXT": "75228880-3a91-43ce-9d9d-d65033c75bb7"
+    }
+  },
+  {
+    "id": "75228880-3a91-43ce-9d9d-d65033c75bb7",
+    "text": "2.1 Quarterly Production Data",
+    "metadata": {
+      "window": "2.  Operational Metrics\nOperational performance indicators are tracked quarterly.  These indicators include production output, average\nturnaround time, customer satisfaction, and inventory turnover.\n 2.1 Quarterly Production Data",
+      "original_text": "2.1 Quarterly Production Data",
+      "source_file": "dummy_hierarchical_test_document.pdf",
+      "page_number": 3,
+      "chunk_type": "text",
+      "parent_id": null
+    },
+    "relationships": {
+      "NodeRelationship.SOURCE": "e4b21ebc-d139-43d3-b5d7-7b835774a7fc",
+      "NodeRelationship.PREVIOUS": "70aa5405-3461-4183-8b3d-e86eca48e456"
+    }
+  },
+  {
+    "id": "9edc0372-64d8-4095-a530-1e58f47fc284",
+    "text": "| Quarter   |   Units Produced |   Defect Rate % |   Downtime Hours |\n|-----------|------------------|-----------------|------------------|\n| Q1        |            15000 |             1.2 |               45 |\n| Q2        |            17200 |             1   |               38 |\n| Q3        |            16850 |             1.4 |               52 |\n| Q4        |            18100 |             0.9 |               31 |",
+    "metadata": {
+      "source_file": "dummy_hierarchical_test_document.pdf",
+      "page_number": 3,
+      "chunk_type": "table",
+      "parent_id": null,
+      "window": "2. Operational Metrics\nOperational performance indicators are tracked quarterly. These indicators include production output, average\nturnaround time, customer satisfaction, and inventory turnover.\n2.1 Quarterly Production Data\n\n| Quarter   |   Units Produced |   Defect Rate % |   Downtime Hours |\n|-----------|------------------|-----------------|------------------|\n| Q1        |            15000 |             1.2 |               45 |\n| Q2        |            17200 |             1   |               38 |\n| Q3        |            16850 |             1.4 |               52 |\n| Q4        |            18100 |             0.9 |               31 |\n\n2.2 Notes\n1. Production output increased steadily during the year. 2. Downtime reduction initiatives improved equipment\nutilization. 3. Defect rates remained below the target threshold. 4. Structured layouts like this help evaluate\nhierarchical chunking.",
+      "original_text": "| Quarter   |   Units Produced |   Defect Rate % |   Downtime Hours |\n|-----------|------------------|-----------------|------------------|\n| Q1        |            15000 |             1.2 |               45 |\n| Q2        |            17200 |             1   |               38 |\n| Q3        |            16850 |             1.4 |               52 |\n| Q4        |            18100 |             0.9 |               31 |"
+    },
+    "relationships": {}
+  },
+  {
+    "id": "ed8a7db9-2467-48b3-be7a-bbf8b3768dd5",
+    "text": "2.2 Notes\n1. ",
+    "metadata": {
+      "window": "2.2 Notes\n1.  Production output increased steadily during the year.  2.  Downtime reduction initiatives improved equipment\nutilization. ",
+      "original_text": "2.2 Notes\n1. ",
+      "source_file": "dummy_hierarchical_test_document.pdf",
+      "page_number": 3,
+      "chunk_type": "text",
+      "parent_id": null
+    },
+    "relationships": {
+      "NodeRelationship.SOURCE": "25852c72-e698-4491-b4aa-0d09a3d527c8",
+      "NodeRelationship.NEXT": "27101f1d-4c75-46b1-981a-878b47be5287"
+    }
+  },
+  {
+    "id": "27101f1d-4c75-46b1-981a-878b47be5287",
+    "text": "Production output increased steadily during the year. ",
+    "metadata": {
+      "window": "2.2 Notes\n1.  Production output increased steadily during the year.  2.  Downtime reduction initiatives improved equipment\nutilization.  3. ",
+      "original_text": "Production output increased steadily during the year. ",
+      "source_file": "dummy_hierarchical_test_document.pdf",
+      "page_number": 3,
+      "chunk_type": "text",
+      "parent_id": null
+    },
+    "relationships": {
+      "NodeRelationship.SOURCE": "25852c72-e698-4491-b4aa-0d09a3d527c8",
+      "NodeRelationship.PREVIOUS": "ed8a7db9-2467-48b3-be7a-bbf8b3768dd5",
+      "NodeRelationship.NEXT": "3bdac71c-b224-4c2e-9913-7a429ffaed93"
+    }
+  },
+  {
+    "id": "3bdac71c-b224-4c2e-9913-7a429ffaed93",
+    "text": "2. ",
+    "metadata": {
+      "window": "2.2 Notes\n1.  Production output increased steadily during the year.  2.  Downtime reduction initiatives improved equipment\nutilization.  3.  Defect rates remained below the target threshold. ",
+      "original_text": "2. ",
+      "source_file": "dummy_hierarchical_test_document.pdf",
+      "page_number": 3,
+      "chunk_type": "text",
+      "parent_id": null
+    },
+    "relationships": {
+      "NodeRelationship.SOURCE": "25852c72-e698-4491-b4aa-0d09a3d527c8",
+      "NodeRelationship.PREVIOUS": "27101f1d-4c75-46b1-981a-878b47be5287",
+      "NodeRelationship.NEXT": "e700f383-db76-4941-9e7e-7a6e3f4df9a3"
+    }
+  },
+  {
+    "id": "e700f383-db76-4941-9e7e-7a6e3f4df9a3",
+    "text": "Downtime reduction initiatives improved equipment\nutilization. ",
+    "metadata": {
+      "window": "2.2 Notes\n1.  Production output increased steadily during the year.  2.  Downtime reduction initiatives improved equipment\nutilization.  3.  Defect rates remained below the target threshold.  4. ",
+      "original_text": "Downtime reduction initiatives improved equipment\nutilization. ",
+      "source_file": "dummy_hierarchical_test_document.pdf",
+      "page_number": 3,
+      "chunk_type": "text",
+      "parent_id": null
+    },
+    "relationships": {
+      "NodeRelationship.SOURCE": "25852c72-e698-4491-b4aa-0d09a3d527c8",
+      "NodeRelationship.PREVIOUS": "3bdac71c-b224-4c2e-9913-7a429ffaed93",
+      "NodeRelationship.NEXT": "f7698826-8634-4dfd-acbe-cb71fd863171"
+    }
+  },
+  {
+    "id": "f7698826-8634-4dfd-acbe-cb71fd863171",
+    "text": "3. ",
+    "metadata": {
+      "window": "Production output increased steadily during the year.  2.  Downtime reduction initiatives improved equipment\nutilization.  3.  Defect rates remained below the target threshold.  4.  Structured layouts like this help evaluate\nhierarchical chunking.",
+      "original_text": "3. ",
+      "source_file": "dummy_hierarchical_test_document.pdf",
+      "page_number": 3,
+      "chunk_type": "text",
+      "parent_id": null
+    },
+    "relationships": {
+      "NodeRelationship.SOURCE": "25852c72-e698-4491-b4aa-0d09a3d527c8",
+      "NodeRelationship.PREVIOUS": "e700f383-db76-4941-9e7e-7a6e3f4df9a3",
+      "NodeRelationship.NEXT": "7c53b198-18aa-4199-92fc-50e3cf5981a5"
+    }
+  },
+  {
+    "id": "7c53b198-18aa-4199-92fc-50e3cf5981a5",
+    "text": "Defect rates remained below the target threshold. ",
+    "metadata": {
+      "window": "2.  Downtime reduction initiatives improved equipment\nutilization.  3.  Defect rates remained below the target threshold.  4.  Structured layouts like this help evaluate\nhierarchical chunking.",
+      "original_text": "Defect rates remained below the target threshold. ",
+      "source_file": "dummy_hierarchical_test_document.pdf",
+      "page_number": 3,
+      "chunk_type": "text",
+      "parent_id": null
+    },
+    "relationships": {
+      "NodeRelationship.SOURCE": "25852c72-e698-4491-b4aa-0d09a3d527c8",
+      "NodeRelationship.PREVIOUS": "f7698826-8634-4dfd-acbe-cb71fd863171",
+      "NodeRelationship.NEXT": "5a8f5dc8-a46c-4f6b-9406-321e95a9b6ef"
+    }
+  },
+  {
+    "id": "5a8f5dc8-a46c-4f6b-9406-321e95a9b6ef",
+    "text": "4. ",
+    "metadata": {
+      "window": "Downtime reduction initiatives improved equipment\nutilization.  3.  Defect rates remained below the target threshold.  4.  Structured layouts like this help evaluate\nhierarchical chunking.",
+      "original_text": "4. ",
+      "source_file": "dummy_hierarchical_test_document.pdf",
+      "page_number": 3,
+      "chunk_type": "text",
+      "parent_id": null
+    },
+    "relationships": {
+      "NodeRelationship.SOURCE": "25852c72-e698-4491-b4aa-0d09a3d527c8",
+      "NodeRelationship.PREVIOUS": "7c53b198-18aa-4199-92fc-50e3cf5981a5",
+      "NodeRelationship.NEXT": "9a193909-41a8-45e2-b99d-6739058d325d"
+    }
+  },
+  {
+    "id": "9a193909-41a8-45e2-b99d-6739058d325d",
+    "text": "Structured layouts like this help evaluate\nhierarchical chunking.",
+    "metadata": {
+      "window": "3.  Defect rates remained below the target threshold.  4.  Structured layouts like this help evaluate\nhierarchical chunking.",
+      "original_text": "Structured layouts like this help evaluate\nhierarchical chunking.",
+      "source_file": "dummy_hierarchical_test_document.pdf",
+      "page_number": 3,
+      "chunk_type": "text",
+      "parent_id": null
+    },
+    "relationships": {
+      "NodeRelationship.SOURCE": "25852c72-e698-4491-b4aa-0d09a3d527c8",
+      "NodeRelationship.PREVIOUS": "5a8f5dc8-a46c-4f6b-9406-321e95a9b6ef"
+    }
+  },
+  {
+    "id": "9df1f48c-0ee2-4ec9-b629-42ec35879215",
+    "text": "3. ",
+    "metadata": {
+      "window": "3.  Mixed Content Testing\nThis page intentionally mixes long paragraphs, short bullet-style lines, headings, and tabular structures.  It is useful for\ntesting OCR, semantic chunking, layout-aware extraction, and heading detection pipelines.\n 3.1 Key Highlights\n(cid:127) Revenue growth exceeded expectations.\n",
+      "original_text": "3. ",
+      "source_file": "dummy_hierarchical_test_document.pdf",
+      "page_number": 4,
+      "chunk_type": "text",
+      "parent_id": null
+    },
+    "relationships": {
+      "NodeRelationship.SOURCE": "46df92d7-ca11-4189-8e74-5732144e2d7d",
+      "NodeRelationship.NEXT": "b5303488-a3c3-4c0f-ab52-f499561d9cc2"
+    }
+  },
+  {
+    "id": "b5303488-a3c3-4c0f-ab52-f499561d9cc2",
+    "text": "Mixed Content Testing\nThis page intentionally mixes long paragraphs, short bullet-style lines, headings, and tabular structures. ",
+    "metadata": {
+      "window": "3.  Mixed Content Testing\nThis page intentionally mixes long paragraphs, short bullet-style lines, headings, and tabular structures.  It is useful for\ntesting OCR, semantic chunking, layout-aware extraction, and heading detection pipelines.\n 3.1 Key Highlights\n(cid:127) Revenue growth exceeded expectations.\n (cid:127) Customer retention improved by 12%.\n",
+      "original_text": "Mixed Content Testing\nThis page intentionally mixes long paragraphs, short bullet-style lines, headings, and tabular structures. ",
+      "source_file": "dummy_hierarchical_test_document.pdf",
+      "page_number": 4,
+      "chunk_type": "text",
+      "parent_id": null
+    },
+    "relationships": {
+      "NodeRelationship.SOURCE": "46df92d7-ca11-4189-8e74-5732144e2d7d",
+      "NodeRelationship.PREVIOUS": "9df1f48c-0ee2-4ec9-b629-42ec35879215",
+      "NodeRelationship.NEXT": "2fb712c2-3cc8-4fe0-96c2-fd17d4c16269"
+    }
+  },
+  {
+    "id": "2fb712c2-3cc8-4fe0-96c2-fd17d4c16269",
+    "text": "It is useful for\ntesting OCR, semantic chunking, layout-aware extraction, and heading detection pipelines.\n",
+    "metadata": {
+      "window": "3.  Mixed Content Testing\nThis page intentionally mixes long paragraphs, short bullet-style lines, headings, and tabular structures.  It is useful for\ntesting OCR, semantic chunking, layout-aware extraction, and heading detection pipelines.\n 3.1 Key Highlights\n(cid:127) Revenue growth exceeded expectations.\n (cid:127) Customer retention improved by 12%.\n (cid:127) Average processing time reduced by 18%.\n",
+      "original_text": "It is useful for\ntesting OCR, semantic chunking, layout-aware extraction, and heading detection pipelines.\n",
+      "source_file": "dummy_hierarchical_test_document.pdf",
+      "page_number": 4,
+      "chunk_type": "text",
+      "parent_id": null
+    },
+    "relationships": {
+      "NodeRelationship.SOURCE": "46df92d7-ca11-4189-8e74-5732144e2d7d",
+      "NodeRelationship.PREVIOUS": "b5303488-a3c3-4c0f-ab52-f499561d9cc2",
+      "NodeRelationship.NEXT": "d08528f4-0604-4d96-90e9-273c0064fbf4"
+    }
+  },
+  {
+    "id": "d08528f4-0604-4d96-90e9-273c0064fbf4",
+    "text": "3.1 Key Highlights\n(cid:127) Revenue growth exceeded expectations.\n",
+    "metadata": {
+      "window": "3.  Mixed Content Testing\nThis page intentionally mixes long paragraphs, short bullet-style lines, headings, and tabular structures.  It is useful for\ntesting OCR, semantic chunking, layout-aware extraction, and heading detection pipelines.\n 3.1 Key Highlights\n(cid:127) Revenue growth exceeded expectations.\n (cid:127) Customer retention improved by 12%.\n (cid:127) Average processing time reduced by 18%.\n (cid:127) AI-assisted workflows improved operational efficiency.",
+      "original_text": "3.1 Key Highlights\n(cid:127) Revenue growth exceeded expectations.\n",
+      "source_file": "dummy_hierarchical_test_document.pdf",
+      "page_number": 4,
+      "chunk_type": "text",
+      "parent_id": null
+    },
+    "relationships": {
+      "NodeRelationship.SOURCE": "46df92d7-ca11-4189-8e74-5732144e2d7d",
+      "NodeRelationship.PREVIOUS": "2fb712c2-3cc8-4fe0-96c2-fd17d4c16269",
+      "NodeRelationship.NEXT": "f0795b8a-917b-48f2-bfa7-69933aa39863"
+    }
+  },
+  {
+    "id": "f0795b8a-917b-48f2-bfa7-69933aa39863",
+    "text": "(cid:127) Customer retention improved by 12%.\n",
+    "metadata": {
+      "window": "Mixed Content Testing\nThis page intentionally mixes long paragraphs, short bullet-style lines, headings, and tabular structures.  It is useful for\ntesting OCR, semantic chunking, layout-aware extraction, and heading detection pipelines.\n 3.1 Key Highlights\n(cid:127) Revenue growth exceeded expectations.\n (cid:127) Customer retention improved by 12%.\n (cid:127) Average processing time reduced by 18%.\n (cid:127) AI-assisted workflows improved operational efficiency.",
+      "original_text": "(cid:127) Customer retention improved by 12%.\n",
+      "source_file": "dummy_hierarchical_test_document.pdf",
+      "page_number": 4,
+      "chunk_type": "text",
+      "parent_id": null
+    },
+    "relationships": {
+      "NodeRelationship.SOURCE": "46df92d7-ca11-4189-8e74-5732144e2d7d",
+      "NodeRelationship.PREVIOUS": "d08528f4-0604-4d96-90e9-273c0064fbf4",
+      "NodeRelationship.NEXT": "ff5635fb-efbe-4e2c-b5ea-d5ac05b3f1fc"
+    }
+  },
+  {
+    "id": "ff5635fb-efbe-4e2c-b5ea-d5ac05b3f1fc",
+    "text": "(cid:127) Average processing time reduced by 18%.\n",
+    "metadata": {
+      "window": "It is useful for\ntesting OCR, semantic chunking, layout-aware extraction, and heading detection pipelines.\n 3.1 Key Highlights\n(cid:127) Revenue growth exceeded expectations.\n (cid:127) Customer retention improved by 12%.\n (cid:127) Average processing time reduced by 18%.\n (cid:127) AI-assisted workflows improved operational efficiency.",
+      "original_text": "(cid:127) Average processing time reduced by 18%.\n",
+      "source_file": "dummy_hierarchical_test_document.pdf",
+      "page_number": 4,
+      "chunk_type": "text",
+      "parent_id": null
+    },
+    "relationships": {
+      "NodeRelationship.SOURCE": "46df92d7-ca11-4189-8e74-5732144e2d7d",
+      "NodeRelationship.PREVIOUS": "f0795b8a-917b-48f2-bfa7-69933aa39863",
+      "NodeRelationship.NEXT": "68702bb7-82bd-4b6d-b00f-c244f8c546ed"
+    }
+  },
+  {
+    "id": "68702bb7-82bd-4b6d-b00f-c244f8c546ed",
+    "text": "(cid:127) AI-assisted workflows improved operational efficiency.",
+    "metadata": {
+      "window": "3.1 Key Highlights\n(cid:127) Revenue growth exceeded expectations.\n (cid:127) Customer retention improved by 12%.\n (cid:127) Average processing time reduced by 18%.\n (cid:127) AI-assisted workflows improved operational efficiency.",
+      "original_text": "(cid:127) AI-assisted workflows improved operational efficiency.",
+      "source_file": "dummy_hierarchical_test_document.pdf",
+      "page_number": 4,
+      "chunk_type": "text",
+      "parent_id": null
+    },
+    "relationships": {
+      "NodeRelationship.SOURCE": "46df92d7-ca11-4189-8e74-5732144e2d7d",
+      "NodeRelationship.PREVIOUS": "ff5635fb-efbe-4e2c-b5ea-d5ac05b3f1fc"
+    }
+  },
+  {
+    "id": "e55f02bf-ee2c-4cba-820d-a703d10c03eb",
+    "text": "| Department   |   Budget |   Spent |   Variance |\n|--------------|----------|---------|------------|\n| Engineering  |   500000 |  470000 |      30000 |\n| Marketing    |   220000 |  210000 |      10000 |\n| Operations   |   340000 |  355000 |     -15000 |",
+    "metadata": {
+      "source_file": "dummy_hierarchical_test_document.pdf",
+      "page_number": 4,
+      "chunk_type": "table",
+      "parent_id": null,
+      "window": "3.1 Key Highlights\n(cid:127) Revenue growth exceeded expectations.\n(cid:127) Customer retention improved by 12%.\n(cid:127) Average processing time reduced by 18%.\n(cid:127) AI-assisted workflows improved operational efficiency.\n\n| Department   |   Budget |   Spent |   Variance |\n|--------------|----------|---------|------------|\n| Engineering  |   500000 |  470000 |      30000 |\n| Marketing    |   220000 |  210000 |      10000 |\n| Operations   |   340000 |  355000 |     -15000 |\n\nEnd of dummy document. This PDF can be used for testing: - OCR pipelines - PDF parsers - Table extraction -\nHierarchical chunking - Embedding quality - RAG preprocessing",
+      "original_text": "| Department   |   Budget |   Spent |   Variance |\n|--------------|----------|---------|------------|\n| Engineering  |   500000 |  470000 |      30000 |\n| Marketing    |   220000 |  210000 |      10000 |\n| Operations   |   340000 |  355000 |     -15000 |"
+    },
+    "relationships": {}
+  },
+  {
+    "id": "c11b9103-e857-453d-96c6-b8f82c871aa6",
+    "text": "End of dummy document. ",
+    "metadata": {
+      "window": "End of dummy document.  This PDF can be used for testing: - OCR pipelines - PDF parsers - Table extraction -\nHierarchical chunking - Embedding quality - RAG preprocessing",
+      "original_text": "End of dummy document. ",
+      "source_file": "dummy_hierarchical_test_document.pdf",
+      "page_number": 4,
+      "chunk_type": "text",
+      "parent_id": null
+    },
+    "relationships": {
+      "NodeRelationship.SOURCE": "e0793e52-5799-4c60-a4f3-a9a9add008be",
+      "NodeRelationship.NEXT": "f3fc545f-b0e2-4f29-9858-f331acca8022"
+    }
+  },
+  {
+    "id": "f3fc545f-b0e2-4f29-9858-f331acca8022",
+    "text": "This PDF can be used for testing: - OCR pipelines - PDF parsers - Table extraction -\nHierarchical chunking - Embedding quality - RAG preprocessing",
+    "metadata": {
+      "window": "End of dummy document.  This PDF can be used for testing: - OCR pipelines - PDF parsers - Table extraction -\nHierarchical chunking - Embedding quality - RAG preprocessing",
+      "original_text": "This PDF can be used for testing: - OCR pipelines - PDF parsers - Table extraction -\nHierarchical chunking - Embedding quality - RAG preprocessing",
+      "source_file": "dummy_hierarchical_test_document.pdf",
+      "page_number": 4,
+      "chunk_type": "text",
+      "parent_id": null
+    },
+    "relationships": {
+      "NodeRelationship.SOURCE": "e0793e52-5799-4c60-a4f3-a9a9add008be",
+      "NodeRelationship.PREVIOUS": "c11b9103-e857-453d-96c6-b8f82c871aa6"
+    }
+  }
+]
